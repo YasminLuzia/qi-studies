@@ -1,0 +1,23 @@
+.content section {
+    background-color: rgba(220, 20, 60, 0.5);
+    margin: 0 5% 0 5%;
+    padding: 15px 3% 15px 3%;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.content section p {
+    padding: 10px;
+}
+
+.content aside {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.content aside h3,
+.content aside h4,
+.content aside h5,
+.content aside p {
+    padding: 10px;
+}

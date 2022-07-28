@@ -1,0 +1,70 @@
+p {
+    text-align: center;
+    color: red;
+}
+
+.central {
+
+    color: blue;
+    text-align: center;
+}
+
+div.center {
+    text-align: center;
+}
+
+img {
+    width: 26%;
+    height: 22%;
+}
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color: #ededed;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid #ededed;
+}
+
+#menu ul {
+    padding: 0px;
+    margin: 0px;
+    background-color: #ededed;
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a:hover {
+    background-color: #d6d6d6;
+    color: #6d6d6d;
+    border-bottom: 3px solid #ea3000;
+}
+
+ul.quadrado {
+    list-style-image: url(../img/icond20.png); /*Pegar icone pequeninho*/
+}
+
+/*
+#verde {
+    color: green;
+}
+
+a:hover {
+    background-color: blue;
+}
+
+a:link {
+    color: #0000ff;
+}
+
+a:visited {
+    background-color: #00ff00;
+}
+
+a:active {
+    background-color: #0000ff;
+}*/

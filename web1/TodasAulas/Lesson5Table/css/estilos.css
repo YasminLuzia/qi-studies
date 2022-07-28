@@ -1,0 +1,90 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-image: url("../imagens/fundo.jpg");
+    background-attachment: fixed;
+}
+.topo{
+    width: 90%;
+    height: 10%;
+    background-color:rgb(172, 117, 128);
+    border: 3px solid black;
+    border-radius: 12px;
+    margin: auto;
+    margin-bottom: auto;
+}
+
+hr{
+    color:white
+}
+
+.conteudo{
+    float:left;
+    clear: left;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+section {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.rodape{
+    width: 90%;
+    height: 10%;
+    background-color:rgb(172, 117, 128);
+    border: 3px solid black;
+    border-radius: 12px;
+    margin: auto;
+    float:left;
+    margin-bottom: auto;
+}
+
+
+
+img {
+    width: 80px;
+    float: right;
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h2, h4, p , ul li, cite {
+    color: white;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2;
+    font-size: 12pt;
+}
+
+section{
+background-color: rgba(215, 44, 44, 0.4);
+background: rgba(215, 44, 44, 0.4);
+color: rgba(215, 44, 44, 0.4);
+}
+
+/* formatação tabela*/
+
+table{
+    border: 2px solid;
+  }
+  
+  tr, td, th{
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+  }

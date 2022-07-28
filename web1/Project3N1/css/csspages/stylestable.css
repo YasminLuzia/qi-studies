@@ -1,0 +1,25 @@
+.content section {
+    background-color: rgba(220, 20, 60, 0.5);
+    margin: 0 5% 0 5%;
+    padding: 15px 3% 15px 3%;
+    border-radius: 10px;
+    text-indent: 60px;
+    text-align: justify;
+
+}
+
+.content table {
+    margin: auto;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    padding: 0;
+}
+
+tbody td {
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    padding: 0;
+    margin: 0;
+}

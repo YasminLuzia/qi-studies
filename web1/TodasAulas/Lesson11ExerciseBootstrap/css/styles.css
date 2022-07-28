@@ -1,0 +1,14 @@
+.jumbotron {
+    background-color: antiquewhite;
+}
+
+figure {
+    float: right;
+    padding-right: 10em;
+    margin: 0;
+}
+
+img {
+    width: 6em;
+    margin: 0;
+}

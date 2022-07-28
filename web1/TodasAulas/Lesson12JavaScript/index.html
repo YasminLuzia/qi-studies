@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exemplo de JavaScript">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/validation.js"></script>
+    <title>JavaScript</title>
+</head>
+
+<body>
+
+    <header class="topo">
+        <h2>Exemplo de JavaScript</h2>
+
+        <script type="text/javascript">
+            document.write("<h3>Este e um subtitulo!</h3>");
+        </script>
+
+    </header>
+
+    <section class="container">
+        <article class="conteudo">
+
+            <!-- <a href="https://qi.edu.br" onclick="alert('Voce sera direcionado para outra pagina.')">Site da Escola</a>
+
+            <button onclick="avisar()">Abrir Mensagem</button>
+            <button onclick="abrirSite()">Site da QI</button>
+            <button onclick="mostrarDiaDaSemana()">Dia da Semana</button> -->
+
+
+            <script type="text/javascript">
+                // var nome;
+                // nome = "Yasmin";
+                // alert(nome);
+
+                // document.write("<h1>Teste de frase em JS</h1>");
+
+                // window.alert("Boa tarde hoje eh terca-feira.");
+
+                // window.open("https://qi.edu.br");
+
+                // var titulo = window.document.title;
+                // window.alert(titulo);
+
+                function mudarCor(cor) {
+                    var c = document.getElementById("frase");
+
+                    c.style.color = cor;
+                }
+            </script>
+
+            <h1 id="frase">Vamos mudar a cor do titulo</h1>
+            <button onclick="mudarCor('#ff0000');">Vermelho</button>
+            <button onclick="mudarCor('#008000');">Verde</button>
+            <button onclick="mudarCor('#0000ff');">Azul</button>
+
+        </article>
+    </section>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Rita Gaieski - Profª Técnico em Informática QI</p>
+    </footer>
+</body>
+
+</html>

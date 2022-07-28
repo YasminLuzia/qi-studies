@@ -1,0 +1,40 @@
+*{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: bold;
+}
+
+nav .brand-logo {
+    padding-left: 0.2em;
+}
+
+.page-footer {
+    padding-bottom: 1em;
+  }
+
+.nav-wrapper{
+    background-color: #ffeb98;
+  }
+
+.logo{
+  color: #ee8872;
+  font-size: 2.5em;
+  margin-left: 1em;
+  font-family: 'Lobster Two', cursive;
+}
+
+.itemmenu{
+  color: #ee8872;
+}
+
+.carousel-item img{
+  border-radius: 15px;
+}
+
+address{
+  text-align: center;
+  color: #ee8872;
+}
+
+.page-footer{
+  background-color: #ffeb98;
+}

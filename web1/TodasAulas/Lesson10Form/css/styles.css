@@ -1,0 +1,14 @@
+.red {
+    color: red;
+}
+
+.form-control {
+    width: 18em;
+    display: inline;
+
+    margin-top: 0.5em;
+}
+
+.btn {
+    margin-top: 0.5em;
+}

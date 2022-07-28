@@ -1,0 +1,16 @@
+.content section {
+    background-color: rgba(220, 20, 60, 0.5);
+    margin: 0 5% 0 5%;
+    padding: 15px 3% 15px 3%;
+    border-radius: 10px;
+    text-indent: 60px;
+    text-align: justify;
+
+}
+
+.content section figure,
+.content section figure img {
+    width: 400px;
+    height: 400px;
+    float: left;
+}

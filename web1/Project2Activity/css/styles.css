@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Lora', serif;
+    margin: 0;
+    color: white;
+}
+
+
+.top header {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: rgba(220, 20, 60, 0.7);
+    padding: 10px;
+    height: 280px;
+}
+
+.top header>div {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    height: 280px;
+}
+
+.top header div h1 {
+    padding-top: 100px;
+}
+
+.top header div figure,
+.top header div figure img {
+    width: auto;
+    height: 280px;
+}
+
+.top header div figure img {
+    width: 100%;
+}
+
+.top nav {
+    background-color: rgba(220, 20, 60, 1);
+    text-align: center;
+    height: 50px;
+}
+
+.top ul {
+    margin: 0;
+    padding: 10px;
+}
+
+.top ul li {
+    padding: 0 5% 0 5%;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    background-color: rgba(220, 20, 60, 0.5);
+    padding: 20px 0 20px 0;
+}
+
+.content section {
+    background-color: rgba(220, 20, 60, 0.5);
+    margin: 0 5% 0 5%;
+    padding: 10px 2% 10px 2%;
+    border-radius: 10px;
+    text-indent: 60px;
+    text-align: justify;
+    
+}
+
+.content section p,  .content section h1{
+    padding: 10px;
+}
+
+.content section figure, .content section figure img {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+
+.foot {
+    background-color: rgba(220, 20, 60, 1);
+    
+}
+
+.foot footer {
+    padding: 10px 2% 10px 2%;
+
+}
+
+.foot footer address {
+    float: right;
+}

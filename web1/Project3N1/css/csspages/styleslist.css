@@ -1,0 +1,38 @@
+.content section {
+    background-color: rgba(220, 20, 60, 0.5);
+    margin: 0 5% 0 5%;
+    padding: 15px 3% 15px 3%;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.content section p,
+.content section h1,
+.content section h3 {
+    padding: 10px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.content ul li,
+.content ol li {
+    padding: 0;
+
+}
+
+.content ol {
+    padding: 0 0 10px;
+}
+
+.list {
+    display: inline-block;
+    padding: 0 0 0 20px;
+}
+
+.content ol li {
+    list-style: upper-latin;
+    display: list-item;
+}

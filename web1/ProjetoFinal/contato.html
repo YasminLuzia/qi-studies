@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>SorveTop</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Site feito para a empresa alimentícia IcyKingdom. A finalidade é facilitar a entrega
+    e compra dos produtos da empresa e apresentar a marca visualmente.">
+  <meta name="keywords" content="sorvete, icykingdom, sorvetop, delivery, delivery sorvete, sorveteria">
+  <meta name="author" content="Renata Pithan, Yasmin Luzia, Danielle Kensy, Juliano Oliveira">
+  <link rel="shortcut icon" href="img/icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans&display=swap" rel="stylesheet">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <style type="text/css">
+    #rodape {
+      background-color: #00adef;
+      color: #fff;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+    }
+  </style>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $('html,body').animate({
+          scrollTop: $(this.hash).offset().top
+        }, 800);
+      });
+    });
+
+    function verifica() {
+      var form2 = document.getElementById('form2');
+      var nome = document.getElementById('txtnome').value;
+      var email = document.getElementById('email').value;
+      var mensagem = document.getElementById('mensagem').value;
+      var erro = document.getElementById('erro');
+      var msg_erro;
+
+      if (nome.length < 2)
+        msg_erro = 'Preencha o campo NOME corretamente';
+      else if (email.length < 2)
+        msg_erro = 'Preencha o campo EMAIL corretamente';
+      else if (mensagem.length < 12)
+      msg_erro = 'Preencha o campo MENSAGEM corretamente';
+      else
+        msg_erro = '';
+
+
+      if (msg_erro == '')
+        form.submit();
+      else
+        erro.innerHTML = msg_erro;
+
+    }
+
+    function verifica1() {
+      var nome = document.getElementById('nome').value;
+      var idade = document.getElementById('idade').value;
+      var email1 = document.getElementById('email1').value;
+      var endereco = document.getElementById('endereco').value;
+      var cpf = document.getElementById('cpf').value;
+      var tel = document.getElementById('tel').value;
+      var erro1 = document.getElementById('erro1');
+      var msg_erro1;
+
+      if (nome.length < 2)
+        msg_erro1 = 'Preencha o campo NOME corretamente';
+      else if (email1.length < 2)
+        msg_erro1 = 'Preencha o campo EMAIL corretamente';
+      else if (idade.length < 2)
+        msg_erro1 = 'Preencha o campo IDADE corretamente';
+      else if (endereco.length < 5)
+        msg_erro1 = 'Preencha o campo ENDEREÇO corretamente';
+      else if (cpf.length < 1 && cpf.length > 11)
+        msg_erro1 = 'Preencha o campo CPF corretamente';
+      else if (tel.length < 1 && tel.length > 12)
+        msg_erro1 = 'Preencha o campo TELEFONE corretamente';
+      else
+        msg_erro1 = '';
+
+
+      if (msg_erro1 == '')
+        form.submit();
+      else
+        erro1.innerHTML = msg_erro1;
+
+    }
+  </script>
+</head>
+
+<body>
+  <div class="geral">
+    <header class="topo" class="col-md-12 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+      <img class="logo" src="img/logo.png" alt="logo sorvetop">
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#localizacao" class="scroll">Localização</a></li>
+          <li><a href="#sugestoes" class="scroll">Sugestões</a></li>
+          <li><a href="#trabalho" class="scroll">Trabalhe Conosco</a></li>
+        </ul>
+      </nav>
+    </header>
+    <figure class="banner" class="col-md-12 col-sm-6 col-xs-12" style="height:450px;">
+      <!--CSS-->
+    </figure>
+
+    <section id="localizacao" class="container-fluid">
+      <h1>Localização</h1>
+      <div id="mapa" class="col-md-12 col-sm-12 col-xs-12">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221278.56612822184!2d-51.29644066781118!3d-29.936938250726822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519770bf819649f%3A0x627245710ea51ad6!2sQI%20-%20Escolas%20e%20Faculdades!5e0!3m2!1spt-BR!2sbr!4v1582831737363!5m2!1spt-BR!2sbr"
+          width="80%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+    </section>
+
+    <section id="sugestoes" class="container-fluid">
+      <h1>Sugestões</h1>
+      <div id="formulario" class="col-md-12 col-sm-6 col-xs-12">
+        <form action="http://www.qi.edu.br" method="post" id="form1">
+          <div class="form-group">
+            <label> Nome: </label>
+            <input type="text" name="txtnome" class="form-control" id="txtnome">
+          </div>
+
+          <div class="form-group">
+            <label> E-mail: </label>
+            <input type="email" name="email" class="form-control" id="email">
+          </div>
+
+          <div class="form-group">
+            <label> Deixe aqui sua sugestão: </label>
+            <textarea name="mensagem" rows="5" cols="30" class="form-control" id="mensagem">
+          </textarea>
+          </div>
+
+          <p id="erro" style="color:red;font-size:14px"></p>
+          <input type="Button" value="Enviar" onclick="verifica()" class="btn">
+          <input type="reset" value="Limpar" class="btn">
+
+        </form>
+      </div>
+    </section>
+
+    <!--form trab-->
+
+    <section id="trabalho" class="container-fluid">
+      <h1>Trabalhe Conosco</h1>
+      <div id="formulario" class="col-md-12 col-sm-6 col-xs-12">
+        <form action="http://www.qi.edu.br" method="post" id="form2">
+          <div class="form-group">
+            <label> Nome: </label>
+            <input type="text" name="nome" class="form-control" id="nome">
+          </div>
+
+          <div class="form-group">
+            <label> E-mail: </label>
+            <input type="email" name="email1" class="form-control" id="email1">
+          </div>
+
+          <div class="org">
+            <div class="tamanhoselecionar">
+              <label> Sexo: </label><br>
+              <input name="sexo" type="radio" value="masculino" id="sexo"> Masculino<br>
+              <input name="sexo" type="radio" value="feminino" id="sexo"> Feminino<br>
+            </div>
+
+            <div class="tamanhoselecionar">
+              <label> Formação: </label><br>
+              <input name="formacao" type="checkbox" value="fundamental" id="formacao">Fundamental<br>
+              <input name="formacao" type="checkbox" value="medio" id="formacao">Medio<br>
+              <input name="formacao" type="checkbox" value="tecnicosuperior" id="formacao">Tecnico/Superior<br>
+            </div>
+
+          </div>
+
+          <div class="org">
+            <div class="tamanho form-group">
+              <label class="espaco"> Idade: </label>
+              <input type="text" name="idade" class="form-control" id="idade">
+            </div>
+
+            <div class="tamanho2 form-group">
+              <label> Endereço: </label>
+              <input type="text" name="endereco" class="form-control" id="endereco">
+            </div>
+
+            <div class="tamanho3 form-group">
+              <label> CPF: </label>
+              <input type="text" name="cpf" class="form-control" id="cpf">
+            </div>
+
+            <div class="tamanho4 form-group">
+              <label> Telefone: </label>
+              <input type="text" name="tel" class="form-control" id="tel">
+            </div>
+          </div>
+
+          <p id="erro1" style="color:red;font-size:14px"></p>
+          <input type="Button" value="Enviar" onclick="verifica1()" class="btn">
+          <input type="reset" value="Limpar" class="btn">
+
+        </form>
+      </div>
+    </section>
+
+    <footer class="navbar container-fluid" id="rodape">
+      <span> Todos os direitos reservados SorveTop e IcyKingdom &copy;</span>
+    </footer>
+  </div>
+
+</body>
+
+</html>

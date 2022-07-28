@@ -1,0 +1,28 @@
+.content section {
+    background-color: rgba(220, 20, 60, 0.5);
+    margin: 0 5% 0 5%;
+    padding: 15px 3% 15px 3%;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+#lore {
+    color: black;
+    width: 50%;
+    height: 150px;
+}
+
+.content button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px;
+    width: 15%;
+    color: black;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.content button:hover {
+    border-color: rgba(220, 20, 60);
+    font-weight: bold;
+}

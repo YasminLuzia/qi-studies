@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>SorveTop - Delivery de Milkshakes e Buffet de Sorvetes</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Site feito para a empresa alimentícia IcyKingdom. A finalidade é facilitar a entrega
+    e compra dos produtos da empresa e apresentar a marca visualmente.">
+  <meta name="keywords" content="sorvete, sorvetop, delivery, sorveteria, buffet">
+  <meta name="author" content="Renata Pithan, Yasmin Luzia, Danielle Kensy, Juliano Oliveira">
+  <link rel="shortcut icon" href="img/icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans&display=swap" rel="stylesheet">
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <style type="text/css">
+    #rodape {
+      background-color: #00adef;
+      color: #fff;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+    }
+  </style>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $('html,body').animate({
+          scrollTop: $(this.hash).offset().top
+        }, 800);
+      });
+    });
+
+    var i2 = 0;
+
+    function turnBlackWhite() {
+      if (i2 === 0) {
+        document.body.style =
+          " -webkit-filter: grayscale(100%);   -moz-filter: grayscale(100%);  -ms-filter: grayscale(100%);   -o-filter: grayscale(100%); filter: grayscale(100%);";
+        i2 = 1;
+      } else {
+        window.location.reload();
+        i = 0;
+      }
+    }
+  </script>
+
+  <!-- Start WOWSlider.com HEAD section -->
+  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+  <script type="text/javascript" src="engine1/jquery.js"></script>
+  <!-- End WOWSlider.com HEAD section -->
+
+</head>
+
+<body>
+  <div class="geral">
+    <header class="topo" class="col-md-12 col-sm-6 col-xs-12" style="margin-bottom:20px;">
+      <img class="logo" src="img/logo.png" alt="logo sorvetop">
+      <nav class="menu">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#saibamais">Saiba Mais</a></li>
+          <li><a href="#locais">Locais</a></li>
+          <li><a href="#cardapio">Sabores</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <figure class="banner" class="col-md-12 col-sm-6 col-xs-12">
+      <!--CSS-->
+    </figure>
+    <br>
+    <div>
+      <button class="btn btn-secondary" onclick="turnBlackWhite();">Tema Preto E branco</button>
+    </div>
+    <section id="sobre" class="container-fluid">
+      <div id="sobrenos" class="col-md-12 col-sm-12 col-xs-12">
+        <h1 class="text-align-center"> Sobre </h1>
+        <h2> O Início </h2>
+        <p> A sorvetop está a 10 anos no mercado entregando produtos de qualidade e preço acessível para todos os
+          publicos,
+          começando apenas com 10 funcionarios e duas caminhonetes. Temos a nossa cede localizada em Porto Alegre, na
+          avenida
+          Assis Brasil.</p>
+        <p>Com mais de 3 quiosques nos shoppings Iguatemi, Bourbon Country, Bourbon Wallig, e diversos outros shoppings
+          por RJ, SP e RS temos como objetivo expandir cada vez mais para multiplicarmos nosso alcance com nosso serviço
+          de delivery e atendimento local.</p>
+        <h2> Atualmente </h2>
+        <p> Com o atual problema do corona virus, nossa empresa deu um grande foco ao serviço de delivery e tenta
+          passar o máximo de segurança aos nossos clientes com nossos entregadores tomando o devido cuidado,
+          assim como nossos atendentes no serviço local. </p>
+        <h2> Fabricação </h2>
+        <p>Trabalhamos com equipamentos automatizados para produção em larga escala. Nossa fabricação é própria pois
+          prezamos
+          por nossa qualidade, produzindo milhares de picolés e litros de sorvetes diariamente. Uma empresa consolidada
+          no mercado por entregar qualidade em cada produto.</p>
+      </div>
+    </section>
+    <section id="saibamais" class="container-fluid">
+      <h1 class="text-align-center">Saiba Mais</h1>
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <h2><a href="https://pt.m.wikipedia.org/wiki/Sorvete" target="_blank">O que é Sorvete?</a></h2>
+        <h2><a href="https://super.abril.com.br/mundo-estranho/como-surgiu-o-sorvete/" target="_blank">Como Surgiu?</a>
+        </h2>
+      </div>
+
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <h2><a href="http://www.bapka.com.br/quem-inventou-o-sorvete/" target="_blank">Quem Inventou?</a></h2>
+        <h2><a href="https://www.perfetto.com.br/blog/voce-sabe-como-surgiu-o-sorvete-conheca-a-historia-dessa-iguaria/"
+            target="_blank">Qual a História?</a></h2>
+      </div>
+    </section>
+    <section id="locais" class="container-fluid">
+      <h1 class="text-align-center"> Locais Disponíveis </h1>
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <h2> Fisicamente </h2>
+        <p>✦ Independência - Porto Alegre</p>
+        <p>✦ Jardim Carvalho - Porto Alegre</p>
+        <p>✦ Sarandi - Porto Alegre</p>
+        <p>✦ Bela Vista - Porto Alegre</p>
+        <p>✦ Moinhos de Vento - Porto Alegre</p>
+        <p>✦ Menino Deus - Porto Alegre</p>
+        <p>✦ Vila Nova - Cachoeirinha</p>
+        <p>✦ Vila Amélia - Cachoeirinha</p>
+        <p>✦ Jardim Guedala - São Paulo</p>
+        <p>✦ Vila Nova Conceição - São Paulo</p>
+        <p>✦ Pinheiros - São Paulo</p>
+        <p>✦ Recreio - Rio de Janeiro</p>
+        <p>✦ Vila da Penha - Rio de Janeiro</p>
+        <p>✦ Bota Fogo - Rio de Janeiro</p>
+      </div>
+
+      <div class="col-md-6 col-sm-6 col-xs-12">
+        <h2> Delivery </h2>
+        <p>✦ Porto Alegre</p>
+        <p>✦ Cachoeirinha</p>
+        <p>✦ Gravataí</p>
+        <p>✦ Pelotas</p>
+        <p>✦ Canoas</p>
+        <p>✦ São Leopoldo</p>
+        <p>✦ Santa Cruz</p>
+        <p>✦ São Paulo</p>
+        <p>✦ Bauru</p>
+        <p>✦ Jundiaí</p>
+        <p>✦ Niterói</p>
+        <p>✦ Nova Iguaçu</p>
+        <p>✦ Mesquita</p>
+        <p>✦ Petrópolis</p>
+      </div>
+    </section>
+    <br>
+    <section id="cardapio" class="container-fluid">
+      <h1>Cardápio</h1>
+      <figure class="cardapiotop col-md-12 col-sm-12 col-xs-12">
+      </figure>
+    </section>
+
+    <section id="galeria" class="container-fluid">
+      <h1>Galeria</h1>
+      <!-- Start WOWSlider.com BODY section -->
+      <div id="wowslider-container1">
+        <div class="ws_images">
+          <ul>
+            <li><img src="data1/images/foto1.png" alt="" title="" id="wows1_0" /></li>
+            <li><img src="data1/images/foto2.png" alt="" title="" id="wows1_1" /></li>
+            <li><img src="data1/images/foto3.png" alt="" title="" id="wows1_0" /></li>
+            <li><img src="data1/images/foto4.png" alt="" title="" id="wows1_1" /></li>
+            <li><img src="data1/images/foto5.png" alt="" title="" id="wows1_0" /></li>
+            <li><img src="data1/images/foto6.png" alt="" title="" id="wows1_1" /></li>
+            <li><img src="data1/images/foto7.png" alt="" title="" id="wows1_0" /></li>
+            <li><img src="data1/images/foto8.png" alt="" title="" id="wows1_3" /></li>
+          </ul>
+        </div>
+        <div class="ws_script" style="position:absolute;left:-99%"></div>
+        <div class="ws_shadow"></div>
+      </div>
+      <script type="text/javascript" src="engine1/wowslider.js"></script>
+      <script type="text/javascript" src="engine1/script.js"></script>
+    </section>
+    <br>
+    <footer class="navbar container-fluid" id="rodape">
+      <span> Todos os direitos reservados SorveTop e IcyKingdom &copy;</span>
+    </footer>
+  </div>
+</body>
+
+</html>
