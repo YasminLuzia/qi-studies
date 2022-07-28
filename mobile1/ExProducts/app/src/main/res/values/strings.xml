@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Share your dice!</string>
+    <string name="image_description">Dice</string>
+    <string name="button_register">Register</string>
+    <string name="button_product">Products</string>
+    <string name="register_welcome">Please register your dice!</string>
+    <string name="dice_name">Name your dice</string>
+    <string name="type_price">Price your dice ;)</string>
+    <string name="dice_registered">Dice registered successfully!</string>
+
+    <string-array name="type_o_dice">
+        <item>Select</item>
+        <item>Polymer</item>
+        <item>Metal</item>
+        <item>Wood</item>
+    </string-array>
+</resources>

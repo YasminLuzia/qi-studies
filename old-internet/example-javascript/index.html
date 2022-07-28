@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap - Framework para desenvolvedores Front-end</title>
+    <meta name="description" content="Framework CSS e JS para design e layout das páginas">
+    <meta name="keywords" content="Framework, CSS, JS, JQuery">
+    <meta name="author" content="Yasmin L">
+    <link rel="shortcut icon" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+      //Exemplo 01 - alerta
+      window.alert("Olá Mundo!");
+
+      //Exemplo 02 - escrever no documento:
+      document.write("<h1>Busquem conhecimento...</h1>");
+
+      //Exemplo 03 - declarando variaveis:
+      var nome = "Yasmin";
+      var idade = 18;
+      var peso = 60;
+      document.write("<h3>Seu nome é <ins>"+nome+"</ins>, tens <ins>"+idade+"</ins> anos. Peso <ins>"+peso+"</ins>kgs.</h3>");
+
+      //Exemplo 04 - Criando uma função:
+      function peb(){
+        document.bgColor = 'white';
+        document.fgColor = 'black';
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Exemplos JavaScript</h1>
+    <h2>Botão Fechar</h2>
+    <input type="button" name="fecha" value="Fechar Janela" onclick="window.close()">
+    <hr>
+
+    <h2>Botão Imprimir</h2>
+    <input type="button" name="imprime" value="Imprimir" onclick="window.print()">
+    <hr>
+
+    <h2>Botão Alerta</h2>
+    <input type="button" name="alerta" value="Mandar Salve" onclick="alert('Salve')">
+    <hr>
+
+    <h2>Botão Confirma</h2>
+    <input type="button" name="confirma" value="Confirmar" onclick="window.confirm('Deseja continuar?')">
+    <hr>
+
+    <h2>Botão Alterar cor do Fundo</h2>
+    <input type="button" name="fundo" value="Cor do Fundo" onclick="document.bgColor = 'lightblue'">
+    <hr>
+
+    <h2>Botão Alterar cor da Fonte</h2>
+    <input type="button" name="fonte" value="Cor da Fonte" onclick="document.fgColor = 'purple'">
+    <hr>
+
+    <h2>Botão Preto e Branco</h2>
+    <input type="button" name="peb" value="Preto e Branco" onclick="peb()">
+    <hr>
+
+  </body>
+</html>

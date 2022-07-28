@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExConstraintRelative</string>
+
+    <string name="red">VERMELHO</string>
+    <string name="orange">LARANJA</string>
+    <string name="yellow">AMARELO</string>
+    <string name="green">VERDE</string>
+    <string name="blue">AZUL</string>
+    <string name="indigo">ÍNDIGO</string>
+    <string name="pink">ROSA</string>
+    <string name="violet">VIOLETA</string>
+
+    <string name="row1">Linha um</string>
+    <string name="row2">Linha dois</string>
+    <string name="row3">Linha três</string>
+    <string name="row4">Linha quatro</string>
+</resources>

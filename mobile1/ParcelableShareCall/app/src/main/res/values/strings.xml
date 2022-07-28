@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Make a Call or Share something whatever</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="toast_credentials">Please insert your credentials</string>
+    <string name="share_something">You can share something you\'d like through here</string>
+    <string name="content_to_share">Write your content</string>
+    <string name="button_share">Share</string>
+    <string name="phone">Type the phone</string>
+    <string name="call_someone">Or, you can call someone through here</string>
+    <string name="button_call">Call</string>
+    <string name="permission_to_call">I need your permission to do this!</string>
+    <string name="permission_denied">Well, you\'re not gonna use this thing then!</string>
+</resources>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpellDataActivity"
+    android:background="@color/blue100">
+
+    <TextView
+        android:id="@+id/spellDataTextViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/important_texts"
+        android:text="@string/spell_data_textview_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/spellDataProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewTitle" />
+
+    <TextView
+        android:id="@+id/spellDataTextViewSearching"
+        style="@style/important_texts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/fragment_textview_searching"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spellDataProgressBar" />
+
+    <TextView
+        android:id="@+id/spellDataTextViewError"
+        style="@style/important_texts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/spellDataTextViewSearching"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/spellDataProgressBar" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/spellDataFloatingButtonFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/brown500"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/button_star_off" />
+
+    <ScrollView
+        android:id="@+id/spellDataScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/spellDataFloatingButtonFavorite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewTitle">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/spellDataLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/characteristic_labels"
+                android:text="@string/spell_data_textview_spell_name_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewLevel"
+                style="@style/characteristic_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spell_data_textview_spell_level_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellName" />
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewClasses"
+                style="@style/characteristic_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spell_data_textview_spell_class_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellSchool" />
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewDescription"
+                style="@style/characteristic_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top|start"
+                android:text="@string/spell_data_textview_spell_description_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellCastingTime" />
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewSchool"
+                style="@style/characteristic_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spell_data_textview_spell_school_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellLevel" />
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewComponents"
+                style="@style/characteristic_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spell_data_textview_spell_component_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellClasses" />
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewDuration"
+                style="@style/characteristic_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spell_data_textview_spell_duration_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellMaterial" />
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewRange"
+                style="@style/characteristic_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spell_data_textview_spell_range_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellRitual" />
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewRitual"
+                style="@style/characteristic_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spell_data_textview_spell_ritual_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellDuration" />
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewMaterial"
+                style="@style/characteristic_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spell_data_textview_spell_material_label"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellComponents" />
+
+            <TextView
+                android:id="@+id/SpellDataUselessTextViewCastingTime"
+                style="@style/characteristic_labels"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spell_data_textview_spell_casting_time_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellRange" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/important_texts"
+                android:text="Spell name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/SpellDataUselessTextViewName"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellLevel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/important_texts"
+                android:text="@string/spell_data_textview_spell_level_zero"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/SpellDataUselessTextViewLevel"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellName"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellClasses"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/important_texts"
+                android:text="Spell Class(es)"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/SpellDataUselessTextViewClasses"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellSchool"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellSchool"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/important_texts"
+                android:text="Spell school"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/SpellDataUselessTextViewSchool"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellLevel"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/description"
+                android:text="Spell description"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/SpellDataUselessTextViewDescription"
+                app:layout_constraintTop_toBottomOf="@+id/SpellDataUselessTextViewDescription"
+                app:layout_constraintVertical_bias="1.0"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellComponents"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/important_texts"
+                android:text="Spell components"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/SpellDataUselessTextViewComponents"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellClasses"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellDuration"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/important_texts"
+                android:text="Spell duration"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/SpellDataUselessTextViewDuration"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellMaterial"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellRange"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/important_texts"
+                android:text="Spell range"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/SpellDataUselessTextViewRange"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellRitual"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellRitual"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/important_texts"
+                android:text="@string/string_not"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/SpellDataUselessTextViewRitual"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellDuration" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellMaterial"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/important_texts"
+                android:text="@string/string_not"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/SpellDataUselessTextViewMaterial"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellComponents" />
+
+            <TextView
+                android:id="@+id/spellDataTextViewSpellCastingTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/important_texts"
+                android:text="Spell casting time"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/SpellDataUselessTextViewCastingTime"
+                app:layout_constraintTop_toBottomOf="@+id/spellDataTextViewSpellRange"
+                tools:ignore="HardcodedText" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

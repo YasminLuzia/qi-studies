@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@author "Yasmin L";
+*{
+  font-family: arial;
+  color: white;
+  margin: 0;
+  text-align: justify;
+}
+body{
+  background-image: url(../img/fumaca.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.geral{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 960px;
+  margin: 0 auto;
+  border:  1px solid white;
+}
+h1{
+  border-top: 1px solid white;
+  text-align: center;
+  padding: 10px;
+}
+.top{
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/skrim.jpg);
+  background-size: 100% 100%;
+}
+
+.menu{
+    width:100%;
+  	height:45px;
+  	margin:0;
+  	padding:0;
+}
+
+.conteudo{
+  width: 100%;
+  height: auto;
+}
+
+.colunas{
+  -moz-column-count:3;
+  -moz-column-gap:10px;
+  -moz-column-rule: red solid 1px;
+  -webkit-column-count:3;
+  -webkit-column-gap:10px;
+  -webkit-column-rule: white solid 1px;
+  border-top: 1px solid white;
+}
+
+.colunas p{
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 1.5;
+  padding: 10px;
+  font-size: 12pt;
+}
+
+.conteudo h2{
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white;
+}
+.rodape{
+  text-align: right;
+  line-height: 40px;
+  border-top: 1px solid white;
+}
+
+.menu{
+  background-color: black;
+  width: auto;
+}
+.menu ul{
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  line-height: 1;
+}
+.menu ul li{
+  display: inline-block;
+}
+/*formatando todas as etapas do link*/
+.menu ul li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;/*primeiro valor altura: altura do menu 45 menos a altura da letra 15 - o que sobra divide por dois. (45-15)/2=15*/
+  text-decoration: uppercase;
+}
+/*formatando a etapa hover do link  a:link- a:visited - a:hover - a:active*/
+.menu ul li a:hover{
+  color: white;
+  background-color: rgba(50, 50, 50, 0.5);
+}

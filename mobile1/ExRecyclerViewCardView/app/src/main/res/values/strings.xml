@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExRecyclerViewCardView</string>
+    <string name="type_name">Type character name</string>
+    <string name="type_class">Type their class</string>
+    <string name="type_level">Type their level</string>
+    <string name="button_ok">Ok</string>
+    <string name="added_char">Added character successfully!</string>
+</resources>

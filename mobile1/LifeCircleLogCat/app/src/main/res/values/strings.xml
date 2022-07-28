@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LifeCircleLogCatIntentNavDisc</string>
+    <string name="edittext_url">Type URL</string>
+    <string name="button_url_browser">Browser</string>
+    <string name="edittext_phone">Type your phone</string>
+    <string name="button_dial">Dial</string>
+</resources>

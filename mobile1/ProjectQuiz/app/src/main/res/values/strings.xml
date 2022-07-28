@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Greek gods quiz</string>
+    <string name="icon_description">Icon of a half destroyed greek pillar</string>
+    <string name="welcome_text">Welcome to the quiz of the greek gods!</string>
+    <string name="button_start">Start</string>
+    <string name="button_select_answer">Select</string>
+    <string name="button_next">Next</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect!</string>
+    <string name="final_score">Final score:</string>
+    <string name="button_play_again">Play Again</string>
+
+
+    <string name="question_1">How many children did Chronos had?</string>
+    <string name="question_1_option_1">5 Children</string>
+    <string name="question_1_option_2">8 Children</string>
+    <string name="question_1_option_3">6 Children</string>
+    <string name="question_1_option_4">9 Children</string>
+
+    <string name="question_2">Which gods are known as The Big Three?</string>
+    <string name="question_2_option_1">Hades, Hephaestus, Ares</string>
+    <string name="question_2_option_2">Poseidon, Zeus, Hephaestus</string>
+    <string name="question_2_option_3">Zeus, Hades, Ares</string>
+    <string name="question_2_option_4">Zeus, Poseidon, Hades</string>
+
+    <string name="question_3">From which part of Zeus body Athena was born from?</string>
+    <string name="question_3_option_1">Heart</string>
+    <string name="question_3_option_2">Back</string>
+    <string name="question_3_option_3">Brain</string>
+    <string name="question_3_option_4">Eye</string>
+
+    <string name="question_4">What\'s Hecate domain?</string>
+    <string name="question_4_option_1">Magic</string>
+    <string name="question_4_option_2">Moon</string>
+    <string name="question_4_option_3">Darkness</string>
+    <string name="question_4_option_4">Knowledge</string>
+
+    <string name="question_5">Who\'s Hephaestus mother?</string>
+    <string name="question_5_option_1">Athena</string>
+    <string name="question_5_option_2">Hera</string>
+    <string name="question_5_option_3">Aphrodite</string>
+    <string name="question_5_option_4">Hecate</string>
+
+    <string name="question_6">Which god cursed Medusa?</string>
+    <string name="question_6_option_1">Athena</string>
+    <string name="question_6_option_2">Ares</string>
+    <string name="question_6_option_3">Aphrodite</string>
+    <string name="question_6_option_4">Poseidon</string>
+
+    <string name="question_7">Who\'s the queen of Olympus?</string>
+    <!-- Same options as question 5 answer 3-->
+
+    <string name="question_8">Who\'s Hephaestus brother?</string>
+    <string name="question_8_option_1">Zeus</string>
+    <string name="question_8_option_2">Dioniso</string>
+    <string name="question_8_option_3">Poseidon</string>
+    <string name="question_8_option_4">Ares</string>
+
+    <string name="question_9">Who are the virgin goddesses?</string>
+    <string name="question_9_option_1">Athena, Artemis, Hestia</string>
+    <string name="question_9_option_2">Hera, Artemis, Hecate</string>
+    <string name="question_9_option_3">Aphrodite, Athena, Hera</string>
+    <string name="question_9_option_4">Zeus</string>
+
+    <string name="question_10">How many gods lived in Olympus?</string>
+    <string name="question_10_option_1">14</string>
+    <string name="question_10_option_2">11</string>
+    <string name="question_10_option_3">12</string>
+    <string name="question_10_option_4">13</string>
+
+</resources>

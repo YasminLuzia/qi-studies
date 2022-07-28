@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ExSpinner</string>
+    <string name="welcome">Hello! Write your name and select your gender, please.</string>
+    <string name="button_choose">Choose</string>
+    <string name="type_name">Type your name</string>
+
+    <string-array name="spinner_gender">
+        <item>Select</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>My gender is beyond your understanding</item>
+    </string-array>
+</resources>

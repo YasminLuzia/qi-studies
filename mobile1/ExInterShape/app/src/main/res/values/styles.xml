@@ -1,0 +1,36 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="phrase1">
+        <item name="android:background">@drawable/first_phrase</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">#ffff</item>
+    </style>
+    <style name="phrase2">
+        <item name="android:background">@drawable/second_phrase</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">#ffff</item>
+    </style>
+    <style name="phrase3">
+        <item name="android:background">@drawable/third_phrase</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">#ffff</item>
+    </style>
+    <style name="phrase4">
+        <item name="android:background">@drawable/fourth_phrase</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">#ffff</item>
+    </style>
+    <style name="phrase5">
+        <item name="android:background">@drawable/fifth_phrase</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">#ffff</item>
+    </style>
+
+</resources>

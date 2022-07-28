@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExInterShape</string>
+
+    <string name="magic_falchions">Eles tem magias e talento, Eles tem cimitarras e astúcia</string>
+    <string name="monster_incoming">Eles não enxergam por ali, Um monstro está vindo!</string>
+    <string name="inspiration">Inspiração lhe aguarda, Erga-se, Não pense duas vezes</string>
+    <string name="your_fate">Ponha o seu destino em suas mãos, Arrisque-se</string>
+    <string name="roll">Jogue os dados!</string>
+</resources>

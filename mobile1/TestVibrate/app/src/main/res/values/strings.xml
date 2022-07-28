@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestVibrate</string>
+    <string name="button_vibrate">VIBRATE</string>
+</resources>

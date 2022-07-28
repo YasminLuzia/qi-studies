@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_gradient">
+
+    <Button
+        android:id="@+id/buttonRiven"
+        android:layout_width="340dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/riven_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewIntroduction"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        style="@style/main_screen_texts"
+        android:text="@string/introduction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toEndOf="@+id/buttonRiven"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewYasuo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        style="@style/main_screen_texts"
+        android:text="@string/introduction_yasuo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonRiven"
+        app:layout_constraintTop_toBottomOf="@+id/textViewIntroduction" />
+
+    <Button
+        android:id="@+id/buttonYasuosMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/main_screen_buttons"
+        android:background="@drawable/main_buttons"
+        android:text="@string/page_yasuo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonRiven"
+        app:layout_constraintTop_toBottomOf="@+id/textViewYasuo" />
+
+    <TextView
+        android:id="@+id/textViewLoveMeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        style="@style/main_screen_texts"
+        android:text="@string/introduction_love_meter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonRiven"
+        app:layout_constraintTop_toBottomOf="@+id/buttonYasuosMusic" />
+
+    <Button
+        android:id="@+id/buttonLoveMeter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:padding="8dp"
+        android:background="@drawable/main_buttons"
+        android:textColor="@color/white"
+        android:text="@string/page_love_meter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonRiven"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLoveMeter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

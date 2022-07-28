@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TheMightyGame</string>
+
+    <string name="selection">Select your adventurer:</string>
+
+    <string name="lore">Lore</string>
+    <string name="close_lore">Close</string>
+
+    <string name="name_beau">Beauregard</string>
+    <string name="lore_beau">Beauregard Lionett is a human monk of The Cobalt Soul. She was sent away to the monastery by her father, a wealthy and superstitious owner of a winery. Beauregard\'s attitude towards other people can be summed up as "do whatever you want, but if it fucks with my shit we\'re going to have issues". She is played by Marisha Ray.</string>
+
+    <string name="name_cad">Caduceus</string>
+    <string name="lore_cad">Caduceus Clay is a firbolg cleric who worships The Wildmother. He lived by himself guarding a cursed sanctuary and graveyard called the Blooming Groove, his family left, one by one, searching for a way to break this curse until the Mighty Nein arrived and he took it as a sign to start his journey. He is played by Taliesin Jaffe.</string>
+
+    <string name="name_caleb">Caleb</string>
+    <string name="lore_caleb">Caleb Widogast, born Bren Aldric Ermendrud, is a human and transmutation wizard. When young, Caleb was a prodigy in the arcane arts and as a result, he quickly became the student of a powerful wizard in the Soltryce Academy. He was manipulated by his own master and forced to do something that he would never forget. He is played by Liam O\'Brien.</string>
+
+    <string name="name_fjord">Fjord</string>
+    <string name="lore_fjord">Fjord (pronounced "Ford") is a half-orc Hexblade (Pact of the Blade) warlock/paladin. Fjord was a sailor and worked in a ship called the Tide\'s Breath that was sabotaged by one of the crew, after fallen into the ocean Fjord was saved himself through a pact with a mysterious entity. He is played by Travis Willingham.</string>
+
+    <string name="name_jester">Jester</string>
+    <string name="lore_jester">Jester, born Genevieve, Lavorre is a tiefling cleric of The Traveler. She is the daughter of the Ruby of the Sea, a famous singe and courtesan, and ran away after she pulled a prank on one of her mother\'s clients. Turns out he was a powerful lord, that demanded Jester execution. Jester is excitable and eager. She delights in small acts of trickery and can be plied with offerings of pastries. She is played by Laura Bailey.</string>
+
+    <string name="name_molly">Mollymauk</string>
+    <string name="lore_molly">Mollymauk Tealeaf was a tiefling blood hunter. Mollymauk thought of himself as having come into existence two years ago when he woke up buried in the ground with no memories. After that, he joined the circus and lived by fortune-telling and blood tricks. Molly had been described as a "literal and figurative peacock" and he frequently told extravagant lies with little mind for whether or not his audience believed them. He was created by Taliesin Jaffe.</string>
+
+    <string name="name_nott">Nott</string>
+    <string name="lore_nott">Nott the Brave, also known as Veth Brenatto, is a goblin (formerly halfling) rogue. She and her family were kidnapped by a goblin clan and to save her family, she killed their leader. She succeeded but was captured and as revenge, she was cursed and turned into a goblin. She is played by Sam Riegel.</string>
+
+    <string name="name_yasha">Yasha</string>
+    <string name="lore_yasha">Yasha Nydoorin is a fallen aasimar barbarian. Yasha has strongly implied that, as a child, she had fought other children to death, due to her clan\'s tradition. That also caused her and her loved one death sentence, for they were not "meant" for each other. She ran away and joined the same circus as Mollymauk as a security member. She is played by Ashley Johnson.</string>
+
+</resources>

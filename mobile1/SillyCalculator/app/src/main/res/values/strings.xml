@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Call Of Cthulhu Percentile Generator</string>
+
+    <string name="insert_skill">Insert the skill name</string>
+
+    <string name="roll">Roll</string>
+
+    <string name="your">Your </string>
+    <string name="check">skill check is</string>
+</resources>

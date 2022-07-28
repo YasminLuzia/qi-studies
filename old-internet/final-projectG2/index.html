@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  	<title>As teorias da conspiração mais famosas do mundo!</title>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Conheça aqui as maiores e mais absurdas teorias da conspiração criadas pelo homem. É como se este site fosse a raiz da Fake News.">
+  	<meta name="keywords" content="Teoria, Conspiração, Bizarro, Curiosidade, Estranho">
+  	<meta name="author" content="Thiago Gregory e Yasmin Luzia">
+  	<link rel="shortcut icon" href="img/icon2.png">
+  	<!--Importando o jquery-->
+  	<script src="js/jquery-3.1.1.min.js"></script>
+  	<script type="text/javascript">
+  		jQuery(document).ready(function($) {
+  			$(".scroll").click(function(event){
+  				event.preventDefault();
+  				$('html,body').animate({scrollTop:$(this.hash).offset().top}, 800);
+  		   });
+  		});
+
+      /*VALIDANDO FORMULARIO*/
+      function valida(){
+			var form = document.getElementById('form1');
+			var nomeemail = document.getElementById('nomeemail').value;
+			var gostou = document.getElementsByName("gostou");
+			var chegouteoria = document.getElementsByName('chegouteoria');
+			var teoria = document.getElementById('suateoria').value;
+			var msg_erro;
+
+			if(nomeemail.length < 2){
+				msg_erro = 'Preencha o Nome ou Email corretamente.';
+			}else if(gostou[0].checked == false && gostou[1].checked == false && gostou[2].checked == false){
+				msg_erro = 'Informe se gostou da nossa página.';
+			}else if(chegouteoria[0].checked == false && chegouteoria[1].checked == false && chegouteoria[2].checked == false){
+				msg_erro = 'Informe como você chegou à sua teoria.';
+			}else if(teoria.length < 10){
+				msg_erro = 'Sua teoria está vazia ou é muito curta.';
+			}else{
+				msg_erro = '';
+			}
+
+			if(msg_erro == ''){
+				form1.submit();
+			}else{
+				erro.innerHTML = msg_erro;
+			}
+		}
+  	</script>
+
+  	<!--Preparando o uso do Bootstrap-->
+  	<!--Habilitando a leitura das medias queries-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<!--Importando o css do Bootastrap-->
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+  	<!--Importando o js para a página-->
+  	<script src="js/bootstrap.min.js">
+    </script>
+  	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+  	<link rel="stylesheet" type="text/css"
+  	href="css/cssmenu.css">
+	</head>
+
+	<body>
+		<header class="topo" id="cabecalho" style="margin:0">
+      <section class="gallery-container">
+        <!--Slide-->
+        <div class="mySlides">
+            <img class="imgslide" src="img/Galeria/3.jpg" alt="Duas pirâmides voando"/>
+        </div>
+        <div class="mySlides">
+            <img class="imgslide" src="img/Galeria/2.jpg" alt="Quadro de esquemas azul"/>
+        </div>
+        <div class="mySlides">
+            <img class="imgslide" src="img/Galeria/1.jpg" alt="Quadro de esquemas branco"/>
+        </div>
+        <div class="mySlides">
+            <img class="imgslide" src="img/Galeria/4.jpg" alt="Simbolos de diversas organizações relacionadas a teorias da conspiração."/>
+        </div>
+        <!--Final Slides-->
+        <!--Navigation-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </section>
+      <script type="text/javascript">
+        /*GALERIA SÓ FUNCIONOU COM O SCRIPT DPS*/
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        ga('send', 'event', 'galeria', 'next_prev', 'Titulo da página');
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {
+        slideIndex = 1
+        }
+        if (n < 1) {
+        slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+        }
+      </script>
+		</header>
+
+		<nav id='cssmenu' class="align-center">
+		  <ul>
+        <li><a href="#topo" class="scroll">Ínicio</a></li>
+        <li><a href="#teoria1" class="scroll">Terra Plana</a></li>
+        <li><a href="#teoria2" class="scroll">O Planeta Nibiru</a></li>
+        <li><a href="#teoria3" class="scroll">Na Lua</a></li>
+        <li><a href="#teoria4" class="scroll">Vida em Marte</a></li>
+        <li><a href="#teoria5" class="scroll">Shakespeare</a></li>
+        <li><a href="#form" class="scroll">Links Úteis e sua Teoria</a></li>
+		  </ul>
+		</nav>
+
+		<section class="conteudo1">
+		  <iframe class="video" src="https://www.youtube.com/embed/v6C2bnU_GAI">
+		  </iframe>
+			<div class="caixa" id="topo">
+				<h2> <strong>ÍNICIO</strong> </h2>
+				<p>
+          Teoria da conspiração, também chamada de teoria conspiratória ou conspiracionismo, é uma hipótese explicativa ou especulativa que sugere que há duas ou mais pessoas ou até mesmo uma organização que têm “tramado” para causar ou acobertar, por meio de planejamento secreto e de ação deliberada, uma situação ou evento tipicamente considerado ilegal ou prejudicial. Neste site você verá algumas das absurdas teorias espalhadas pela internet e também alguns links para mais conteúdo relacionado ao assunto. Ainda nessa sessão um vídeo sobre uma famosa teoria.
+				</p>
+			</div>
+		</section>
+
+		<section class="conteudo2" id="teoria1">
+			<figure class="figura2">
+				<img src="img/TerraPlana.jpg" alt="Uma representação da terra se fosse plana.">
+			</figure>
+			<div class="caixa2">
+
+				<h2> Seria a Terra, <strong>Plana</strong>? </h2>
+				<p>
+					Apesar de estar em maior evidência hoje, a teoria da Terra plana tem séculos e séculos de existência. Astrônomos de grandes civilizações antigas, como Grécia, China e Índia, defendiam que a Terra era achatada. Era o padrão que todo mundo seguia. Mas isso começou a mudar também há bastante tempo. Na própria Grécia, o filósofo Pitágoras, no século 6 a.C., já falava que o planeta era redondo. Só que ele não foi muito ouvido
+				</p>
+			</div>
+		</section>
+
+		<section class="conteudo2" id="teoria2">
+			<figure class="figura1">
+				<img src="img/Nibiru.jpg" alt="O planeta Nibiru">
+			</figure>
+			<div class="caixa">
+				<h2> O <strong>Planeta Nibiru</strong> irá destruir a Terra? </h2>
+				<p>
+					Já ouviu falar do famoso Nibiru? É um planeta desconhecido pelos cientistas, mas algumas pessoas afirmam que ele será o responsável pelo fim do Terra. As teorias unem astronomia, trechos da Bíblia, numerologia e o calendário maia para prever quando acontecerá o choque dos dois planetas! A última data marcada pelos seguidores dessa ideia foi 23 de setembro de 2017, o que obviamente não aconteceu. De acordo com jornal britânico The Telegraph, a existência de Nibiru foi afirmada em 1995 pela americana Nancy Lieder, que diz ter um canal de comunicação com alienígenas, que a teriam alertado sobre a catástrofe de Nibiru.
+				</p>
+			</div>
+		</section>
+
+		<section class="conteudo2" id="teoria3">
+			<figure class="figura2">
+				<img src="img/Lua.jpg" alt="Uma imagem de um astronouta na lua com a bandeira dos Estados Unidos em sua frente.">
+			</figure>
+			<div class="caixa2">
+				<h2> O <strong>Homem</strong> realmente foi à <strong>Lua</strong>? </h2>
+				<p>
+					Você já deve ter visto alguém duvidando da ida do homem à Lua em 1969. Tem quem acredite na viagem dos astronautas até lá, mas duvida muito que a filmagem transmitida pela NASA seja real. Segundo a teoria, o governo americano teria feito a gravação da alunissagem em um estúdio para nada dar errado. Há, também, os que vão além e afirmam que a gravação original foi destruída porque os astronautas encontraram coisas assustadoras pelo nosso satélite…
+				</p>
+			</div>
+		</section>
+
+		<section class="conteudo2" id="teoria4">
+			<figure class="figura1">
+				<img src="img/ObamaMarte.jpg" alt="A parte esquerda da foto é o planeta Marte e a parte direita é o Barack Obama.">
+			</figure>
+			<div class="caixa">
+				<h2> <strong>Barack Obama</strong> viajou para <strong>Marte?</strong> </h2>
+				<p>
+					Um grupo defende que Marte já foi colonizado por humanos! E sabe quem foi um dos embaixadores da Terra no Planeta Vermelho? O ex-presidente dos EUA Barack Obama! O advogado norte-americano Andrew Basiago, que já disse ter pisados diversas vezes em solo marciano, jura que já viajou com Obama para lá. O melhor de tudo nessa história? Eles foram teletransportados!
+				</p>
+			</div>
+		</section>
+
+		<section class="conteudo2" id="teoria5">
+			<figure class="figura2">
+				<img src="img/Shakespeare.jpg" alt="Uma pintura que representa Shakespeare.">
+			</figure>
+			<div class="caixa2">
+				<h2> <strong>Shakespeare</strong> não foi um escritor? </h2>
+				<p>
+					Para os que defendem esta conspiração, Shakespeare era o nome com o qual diversos escritores assinavam seus trabalhos. Há também os que argumentam que Shakespeare era, na verdade, um mero ator do teatro The Globe, que nunca poderia ter criado obras que levam seu nome porque escrevia com erros de ortografia e nunca viajou para a Itália. Por isso, não conhecia Verona nem Veneza para criar Romeu e Julieta e Otelo.
+				</p>
+			</div>
+		</section>
+
+		<section class="conteudo3"  id="form">
+			<div class="links">
+				<h2> <strong>LINKS ÚTEIS</strong> </h2>
+          <p><a style="color: white" href="https://pt.wikipedia.org/wiki/Teoria_da_conspira%C3%A7%C3%A3o" target="blank">O que é Teoria da Conspiração?</a><br></p>
+          <p><a style="color: white" href="https://super.abril.com.br/tudo-sobre/teoria-da-conspiracao/" target="blank">Mais Teorias!!</a><br></p>
+          <p><a style="color: white" href="https://www.correiobraziliense.com.br/app/noticia/ciencia-e-saude/2018/09/30/interna_ciencia_saude,709180/pesquisa-traca-perfil-de-quem-acredita-em-teorias-da-conspiracao.shtml" target="blank">São Apenas Teorias...</a><br></p>
+          <p><a style="color: white" href="https://www.youtube.com/watch?v=lbg5BYc0uIo" target="blank">Explicando Sobre os Illuminati - Canal Você Sabia?</a></p>
+          <p><a style="color: white" href="https://politica.estadao.com.br/blogs/estadao-verifica/como-publicar-sobre-desinformacao-extremismo-e-teorias-da-conspiracao-um-guia-do-first-draft/" target="blank">Um guia sobre publicação de noticias falsas</a></p>
+			</div>
+
+      <div class="caixa3">
+				<h2> DEIXE SUA TEORIA </h2>
+				<form method="post" id="form1" action="teoriaenviada.html" target="blank">
+					<div class="form-group">
+						<label> Seu Nome/E-mail: </label>
+						<input type="text" name="nome" class="form-control" id="nomeemail">
+					</div>
+
+					<div class="form-group" id="gostou">
+						<label> Você gostou da nossa página? </label><br>
+						<input type="radio" name="gostou"><strong>Sim</strong><br>
+						<input type="radio" name="gostou"><strong>Mais ou menos</strong><br>
+						<input type="radio" name="gostou"><strong>Não</strong>
+					</div>
+
+					<div class="form-group" id="chegouteoria">
+						<label> Como você chegou a sua teoria? </label><br>
+						<input type="checkbox" name="chegouteoria"><strong>Por conta própria</strong><br>
+						<input type="checkbox" name="chegouteoria"><strong>Pela internet</strong><br>
+						<input type="checkbox" name="chegouteoria"><strong>Outro</strong>
+					</div>
+
+					<div class="form-group">
+						<label> Teoria: </label>
+						<textarea cols="30" rows="5" class="form-control" id="suateoria"></textarea>
+					</div>
+
+          <div style="float: left">
+  					<input type="button" value="Enviar" class="btn btn-primary" onclick="valida()">
+  					<input type="reset" value="Limpar" class="btn btn-primary">
+          </div>
+
+          <p id="erro"></p>
+				</form>
+			</div>
+		</section>
+
+		<div class="row container-fluid">
+			<a href="#cabecalho" class="botaotopo scroll">
+				<img src="img/seta2.png" alt="topo">
+			</a>
+		</div>
+
+		<footer>
+			<cite style="color: rgb(199, 166, 25)"> Todos os direitos autorais reservados aos criadores dos conteúdos. Página por Thiago Gregory e Yasmin Luzia.</cite>
+		</footer>
+	</body>
+</html>

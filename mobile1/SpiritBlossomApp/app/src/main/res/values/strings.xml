@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Spirit Blossom App</string>
+    <!-- Main Screen !-->
+    <string name="introduction">Oh, recruit! Your found us here too…
+        \nI\'m Riven, just in case you don\'t remember.
+        \nAnyway, some of us, from the spiritual world, wanted to share with more people our purposes and interests, so we asked to create an app.
+        \nHope you like it.</string>
+    <string name="introduction_yasuo">This is Yasuo\'s presentation. He\'s good.</string>
+    <string name="page_yasuo">Yasuo\'s presentation</string>
+    <string name="introduction_love_meter">What is this?! Who did this stupid thing?!</string>
+    <string name="page_love_meter">Love meter</string>
+    <string name="hey">HEY</string>
+    <string name="phrase_riven_button">D-Don\'t touch me, stupid.</string>
+    <string name="neutral_button_oops">Oops</string>
+
+    <!-- Yasuo Screen !-->
+    <string name="music_yasuo">Dance by Yasuo</string>
+    <string name="credits">All fan art credits to @aeriiyu</string>
+    <string name="stop_toast">You can\'t stop something that isn\'t playing.</string>
+
+    <!-- Love Meter Screen !-->
+    <string name="love_meter_your_name">Your name</string>
+    <string name="love_meter_champion_name">Champion name</string>
+    <string name="button_love_meter">Calculate</string>
+    <string name="you_and">You and </string>
+    <string name="match"> match </string>
+    <string name="how_unfortunate">How unfortunate.</string>
+    <string name="kinda_good">That\'s… a good sign I suppose?</string>
+    <string name="lucky">Oh look at that! You\'re a lucky one, indeed.</string>
+    <string name="invalid_names">Darling, you need to fill the names so I can give you a result, yes?</string>
+</resources>

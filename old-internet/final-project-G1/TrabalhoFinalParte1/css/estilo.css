@@ -1,0 +1,227 @@
+@charset "UTF-8";
+@author "Yasmin L";
+
+/*configurando tudo*/
+body{
+  background-image: url(img/background.jpg);
+  color: #868686;
+  font-family: "Open Sans", Helvetica, sans-serif, arial;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: left;
+  text-shadow: 1px 1px 0px #fff;
+}
+
+.center{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+/*configurando cabeçalhos links p's*/
+.clearfix:before, .clearfix:after{
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+img, picture, video, embed{
+  max-width: 100%;
+}
+
+h1, h2{
+  color: #FE9380;
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  line-height: 60px;
+}
+
+h3{
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  line-height: 38px;
+}
+
+p{
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+a, a:link, a:visited{
+  color: #FE9380;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FE5E41;
+  text-decoration: underline;
+  text-shadow: none;
+}
+
+/*configurando header*/
+header{
+  border-bottom: 1px solid #E0E0E0;
+  height: 150px;
+  width: 1200px;
+}
+
+/*Logotipo*/
+header h1 a{
+  background: url(../img/logo-criar-site-responsivo.png) no-repeat;
+  display: block;
+  float: left;
+  height: 139px;
+  text-indent: -9999;
+  width: 302px;
+}
+
+/*configurando nav*/
+nav{
+  float:right;
+  margin-top: 78px;
+  text-align: right;
+  width: 800px;
+}
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  display: inline;
+}
+nav ul li a{
+  margin-right: 30px;
+}
+nav ul li:nth-child(5) a{
+  margin-right: 0px;
+}
+nav a:link, nav a:visited{
+  color:#999;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  line-height: 26px;
+  display: inline-block;
+}
+nav a.ativo:link, nav a:hover{
+  color: #FE9380;
+}
+
+/*configurando chamada*/
+.chamada{
+  height: 290px;
+  text-align: center;
+  width: 1200px;
+}
+h2 span{
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  line-height: 60px;
+}
+.chamada h3{
+  margin: 0 auto;
+  width: 900px;
+}
+
+/*configurando container*/
+.container{
+  background-color: #FE9481;
+  height: 417px;
+  padding: 30px;
+  max-width: 1200px;
+}
+.desktop, .tablet, .mobile{
+  float: left;
+  position: relative;
+  text-align: center;
+  width: 360px;
+}
+.desktop, .tablet{
+  margin-right: 30px;
+}
+.mobile{
+  background-color: #9C8CB9;
+  margin-right: 0px;
+}
+.desktop{
+  background-color: #FE9481;
+}
+.tablet{
+  background-color: #FCDA92;
+}
+
+/*formatação texto, imagem e botão no container*/
+.container h3{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-shadow: none;
+}
+
+.container p{
+  background-color: #fff;
+  float: left;
+  height: 160px;
+  padding: 7px;
+  position: absolute;
+  max-width: 360px;
+  text-align: justify;
+  top:225px;
+}
+
+/*botão*/
+span.btn{
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -2px;
+  height: 27px;
+  margin-top: 30px;
+  position: absolute;
+  right: 1px;
+  text-align: center;
+  text-shadow: none;
+  width: 120px;
+}
+
+span.btn a{
+  color: #fff;
+  padding: 2px 4px;
+}
+
+.desktop span.btn a{
+  background-color: #FE9481;
+}
+.tablet span.btn a{
+  background-color: #FCDA92;
+}
+.mobile span.btn a{
+  background-color: #9C8CB9;
+}
+
+/*configurando footer*/
+footer{
+  clear: both;
+  height: 50px;
+  padding: 10px 0px;
+  width: 1200px;
+}
+
+.copyright{
+  float: left;
+  margin-left: 30px;
+}
+.desenvolvedor{
+  float: right;
+}
+.desenvolvedor figure{
+  width: 182px;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TheMightyGame</string>
+
+    <string name="selection">Selecione seu Aventureiro:</string>
+
+    <string name="lore">História</string>
+    <string name="close_lore">Fechar</string>
+
+    <string name="name_beau">Beauregard</string>
+    <string name="lore_beau">Beauregard Lionett es un monje humano de las Almas de Cobalto. Fue llevada al monasterio por su padre, el rico y supersticioso dueño de un viñedo. La actitud de Beauregard hacia otras personas se puede resumir como "haz lo que quieras, pero si jodes con mis cosas estaremos en problemas". Ella es interpretada por Marisha Ray.</string>
+
+    <string name="name_cad">Caduceus</string>
+    <string name="lore_cad">Caduceus Clay es un clérigo firbolg que sigue a la Madre Naturaleza. Vive solo cuidando un santuario y cementerio maldito llamado Tallado Floreciente, su familia se fue, uno por uno, en busca de una forma de romper esta maldición hasta que Mighty Nein llegó y lo consideró como una señal para comenzar su viaje. Lo juega Taliesin Jaffe.</string>
+
+    <string name="name_caleb">Caleb</string>
+    <string name="lore_caleb">Caleb Widogast, nacido Bren Aldric Ermendrud, es un humano y mago de transmutación. De joven, Caleb fue un prodigio en las artes arcanas y, como resultado, rápidamente se convirtió en alumno de un poderoso mago de la Academia Soltryce. Fue manipulado por su maestro y obligado a hacer algo que nunca olvidaría. Es interpretado por Liam O\'Brien.</string>
+
+    <string name="name_fjord">Fjord</string>
+    <string name="lore_fjord">Fjord (pronunciado "Ford") es un hechicero/paladín Hexblade (Pacto de la Espada) medio-orc. Fjord era marinero y trabajó en un barco llamado Aliento de la Marea que fue saboteado por un miembro de la tripulación. Después de caer al océano Fjord se salvó mediante un pacto con una entidad misteriosa. Lo juega Travis Willingham.</string>
+
+    <string name="name_jester">Jester</string>
+    <string name="lore_jester">Jester, nacida Genevieve, Lavorre es una Tiefling y clériga del Viajero. Ella es la hija de Rubi do Mar, una famosa cantante y cortesana, y se escapó después de hacer una broma con un de los clientas de su madre. Resulta que él era un señor poderoso, que exigió la ejecución de Jester. Jester es animada y ansiosa. Le encantan las bromas y puede convencerle con dulces. Ella es interpretada por Laura Bailey.</string>
+
+    <string name="name_molly">Mollymauk</string>
+    <string name="lore_molly">Mollymauk Tealeaf era un tiefling y cazador de sangre. Mollymauk se conoce a sí mismo como personas desde hace dos años, cuando despertó enterrado en el suelo y sin recuerdos. Después de eso, se unió al circo y vivió adivinaciones y trucos de sangre. Molly había sido descrito como un "pavo literal y figurado" y a menudo decía mentiras extravagantes sin querer saber si el público lo creía o no. Fue creado por Taliesin Jaffe.</string>
+
+    <string name="name_nott">Nott</string>
+    <string name="lore_nott">Nott the Brave, también conocida como Veth Brenatto, es una pícaro goblin (anteriormente halfling). Ella y su familia fueron secuestrados por un clan de goblins y, para salvar a su familia, ella mató a su líder. Ella tuvo éxito, pero fue capturada y, en venganza, fue maldecida y convertida en goblin. Ella es interpretada por Sam Riegel.</string>
+
+    <string name="name_yasha">Yasha</string>
+    <string name="lore_yasha">Yasha Nydoorin es una bárbara aasimar caída. Yasha dijo que, de niña, luchó contra la muerte de otros niños, debido a las tradiciones de su clan. También causó que ella y su ser querido fueran condenados a muerte, ya que no estaban "destinados" el uno para el otro. Se escapó y se unió al mismo circo que Mollymauk como miembro de seguridad. Ella es interpretada por Ashley Johnson.</string>
+</resources>

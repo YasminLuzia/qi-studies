@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ProvaN1</string>
+
+    <string name="toast_value1_empty">Value 1 cannot be empty!</string>
+    <string name="toast_value2_empty">Value 2 cannot be empty!</string>
+    <string name="toast_spinner_opertion_invalid">Please, select an Operation</string>
+    <string name="toast_value2_is_zero">You cannot divide by <b>0</b>!</string>
+
+    <string name="to_calculator">Calculator</string>
+    <string name="to_random">Random</string>
+    <string name="about">About</string>
+    <string name="type_first_value">Type first value</string>
+    <string name="type_second_value">Type second value</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="about_us">Student names: \nThiago e Yasmin \nEmails: \ngregorythiago@hotmail.com\nyasmin.s.luzia@gmail.com</string>
+    <string name="gif_description">A gif were Joel from The Last of Us smiles and shows a cup of coffee</string>
+    <string name="dice_icon_description">A twenty sided dice</string>
+    <string name="roll">Roll d20</string>
+    <string-array name="spinner_operations">
+        <item>Select</item>
+        <item>Add</item>
+        <item>Substract</item>
+        <item>Multiply</item>
+        <item>Divide</item>
+    </string-array>
+</resources>

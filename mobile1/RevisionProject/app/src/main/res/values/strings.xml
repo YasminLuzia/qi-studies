@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RevisionProject</string>
+    <string name="button_to_dial">Dial</string>
+    <string name="button_to_student">Student</string>
+    <string name="button_to_square">Square</string>
+    <string name="type_phone">Type phone</string>
+    <string name="type_square_side">Type the value of the square side</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="type_student_name">Type the student name</string>
+    <string name="type_grade1">Type grade 1</string>
+    <string name="type_grade2">Type grade 2</string>
+    <string name="button_grades">Final Result</string>
+    <string name="image_description_yellow_book">A yellow book</string>
+
+    <string-array name="spinner_calculus">
+        <item>Select</item>
+        <item>Area</item>
+        <item>Perimeter</item>
+        <item>Both</item>
+    </string-array>
+</resources>

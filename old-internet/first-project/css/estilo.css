@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@author "Yasmin L";
+*{
+  font-family: georgia;
+  color: #8B1A1A;
+}
+body{
+  background-color: #FFE4E1;
+}
+.titulos1{
+  font-family: georgia, verdana, arial;
+  text-align: center;
+}
+.maiusculo{
+  text-transform: uppercase;
+}
+footer{
+  text-align: right;
+}

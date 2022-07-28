@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">El Magnífico App de Canciones de Scanlan</string>
+
+    <string name="email">E-mail</string>
+    <string name="password">Contraseña</string>
+
+    <string name="forgot_password">Olvide mi contraseña</string>
+
+    <string name="remember_me">Recuerdame</string>
+
+    <string name="register">Registrarse</string>
+    <string name="sign_in">Iniciar sesión</string>
+
+    <string name="artist_credits">Arte por Kit Buss</string>
+</resources>

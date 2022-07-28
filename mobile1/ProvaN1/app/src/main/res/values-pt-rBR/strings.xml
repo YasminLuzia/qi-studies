@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProvaN1</string>
+
+    <string name="toast_value1_empty">Valor 1 não pode estar vazio!</string>
+    <string name="toast_value2_empty">Valor 2 não pode estar vazio!</string>
+    <string name="toast_spinner_opertion_invalid">Por favor, selecione uma operação</string>
+    <string name="toast_value2_is_zero">Você não pode dividir por <b>0</b>!</string>
+
+    <string name="to_calculator">Calculadora</string>
+    <string name="to_random">Aleatório</string>
+    <string name="about">Sobre</string>
+    <string name="type_first_value">Digite o primeiro valor</string>
+    <string name="type_second_value">Digite o segundo valor</string>
+    <string name="button_calculate">Calcular</string>
+    <string name="about_us">Nomes dos alunos: \nThiago e Yasmin \nEmails: \ngregorythiago@hotmail.com\nyasmin.s.luzia@gmail.com</string>
+    <string name="gif_description">Um gif em que Joel de The Last of Us sorri e mostra sua xícara de café</string>
+    <string name="dice_icon_description">Um dado de vinte lados</string>
+    <string name="roll">Rolar d20</string>
+
+    <string-array name="spinner_operations">
+        <item>Selecione</item>
+        <item>Somar</item>
+        <item>Subtrair</item>
+        <item>Multiplicar</item>
+        <item>Dividir</item>
+    </string-array>
+</resources>

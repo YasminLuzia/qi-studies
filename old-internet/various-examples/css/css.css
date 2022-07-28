@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@author "Yasmin L";
+
+/*Formatando tudo*/
+*{
+	font-family:verdana;
+}
+
+body{
+	background-color:#C6E2FF
+}
+
+/*Formatando a classe para títulos de cada página*/
+.principal{
+	font-family:georgia, verdana, arial;
+	color:#191970;
+	text-align:center;
+	text-shadow:2px 2px 2px white,
+				-2px -2px 2px white;
+	text-decoration: underline;
+}
+
+/*Formatando os links*/
+a:link{
+	text-decoration:none;
+	color:black;
+}
+
+/*links ja visitados*/
+a:visited{
+	color:#696969;
+}
+
+a:hover{
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 1px white;
+}
+
+p{
+	text-indent:25px;
+	line-height:1.2;/*espaço entre as lnhas*/
+}
+
+/*Formatando a página parágrafos*/
+.esquerdo{
+	text-align:left;
+}
+.direito{
+	text-align:right;
+}
+.centro{
+	text-align:center;
+}
+.justificado{
+	text-align:justify;
+}
+.especial{
+	line-height:2;
+	font-weight:bold;
+	font-style:italic;
+	background-color:white;
+	border:2px groove black;
+	border-radius: 5px;
+	text-shadow:1px 1px 1px black;
+	color:#1E90FF;
+	padding:5px;
+	margin:5px;
+}
+
+/*Formatando página fonte*/
+.arial{
+	font-family:arial;
+}
+.verdana{
+	font-family:verdana;
+}
+.tamanho10px{
+	font-size:10px;
+}
+.tamanho10pt{
+	font-size:10pt;
+}
+.tamanho1em{
+	font-size:1em;
+}
+.vermelho{
+	color:red;
+}
+.azul{
+	color:blue;
+}
+
+.sombra{
+	text-shadow:1px 1px 1px gray;
+}
+.versalete{
+	font-variant:small-caps;
+}
+.maiusculo{
+	text-transform:uppercase;
+}
+.minusculo{
+	text-transform:lowercase;
+}
+
+/*Formatando imagem.html*/
+.imagem{
+	width: 250px;
+	float: left;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid black;
+}
+.imagem img{
+	width: 100%;
+}
+.imagem2{
+	width: 200px;
+	margin: 0 auto; /*Centraliza elementos de blocos*/
+	padding: 10px;
+	border: 2px solid black;
+}
+.imagem2 img{
+	width: 100%;
+}
+/*Formatando imagens de plano de fundo*/
+.fundo{
+	background-image: url(../img/leemon.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+/*Formatando listas.html*/
+.listaordem{
+	list-style-type: upper-alpha;
+}
+.lista{
+	list-style-type: square;/*circle/disc*/
+	/*list-style-image: url();*/
+	/*list-style-position: inside;*/
+}
+.menu{
+	list-style-type: none;
+}
+.menu li{
+	display: inline-block;
+	padding: 10px;
+}
+/*Formatando tabelas.html*/
+table, td, th{
+	border: 2px solid black;
+}
+table{
+	border: 2px solid black;
+	margin: 0 auto;
+	border-collapse: collapse;/*retira bordas duplas*/
+}
+tr,td,th{
+	width: 130px;
+	height: 45px;
+}
+/*formatando a pagina formularios.html*/
+.maior{
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.menor{
+	border-radius: 20px;
+}
+legend{
+	font-weight: bold;
+}
+input,select,textarea{
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+}
+input:focus, select:focus, textarea:focus{
+	background-color: #E8E8E8;
+	padding: 7px;
+}
+input:hover, select:hover, textarea:hover{
+	border: 1px solid grey;
+}

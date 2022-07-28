@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@author "Yasmin L";
+
+/*Formatando geral*/
+*{
+  font-family: helvetica;
+}
+body{
+  background-image: url(../img/background.png);
+  background-attachment: fixed;
+  margin: 25px;
+}
+.foto{
+  float: right;
+}
+h1{
+  font-family: times, verdana, arial;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 2px #363636;
+}
+h2{
+  font-family: times, verdana, arial;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #363636;
+}

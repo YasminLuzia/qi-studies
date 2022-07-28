@@ -1,0 +1,102 @@
+<resources>
+    <!-- App themes. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue500</item>
+        <item name="colorPrimaryDark">@color/blue700</item>
+        <item name="colorAccent">@color/brown400</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue500</item>
+        <item name="colorPrimaryDark">@color/blue700</item>
+        <item name="colorAccent">@color/brown400</item>
+    </style>
+
+    <!--Main styles-->
+    <style name="main_buttons">
+        <item name="android:textColor">@color/brown500</item>
+        <item name="android:layout_marginStart">96dp</item>
+        <item name="android:layout_marginEnd">96dp</item>
+    </style>
+
+    <style name="main_warning">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/blueGray600</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--Fragment styles-->
+    <style name="search_buttons">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/brown500</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="edit_text_fragment">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:background">@drawable/edittext_spell_name</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="spinner_classes">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@drawable/spinner_classes</item>
+    </style>
+
+    <!--Row styles-->
+    <style name="row_spell_margin">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+
+    <style name="spell_name">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/brown500</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="spell_index">
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/blueGray800</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="touch_for_details">
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/blueGray800</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--Spell details styles-->
+    <style name="important_texts">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/blueGray800</item>
+    </style>
+
+    <style name="description">
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/blueGray800</item>
+    </style>
+
+    <style name="characteristic_labels">
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:textColor">@color/brown500</item>
+    </style>
+
+</resources>

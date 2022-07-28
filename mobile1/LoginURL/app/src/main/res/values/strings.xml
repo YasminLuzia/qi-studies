@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fabecook</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="toast_credentials">Please insert your credentials</string>
+    <string name="welcome">Welcome to Fabecook, </string>
+    <string name="real_talk">Unfortunetly, this is not a real App is just a silly joke about Facebook. \nYou may go to the actual social media if you\'d like :)</string>
+    <string name="facebook">Facebook</string>
+    <string name="second_option">Or not! If you want to go to another one, just type their URL down here.</string>
+    <string name="url">Type URL</string>
+    <string name="browser">Browser</string>
+</resources>

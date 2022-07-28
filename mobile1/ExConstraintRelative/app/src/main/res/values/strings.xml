@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExConstraintRelative</string>
+
+    <string name="red">RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="green">GREEN</string>
+    <string name="blue">BLUE</string>
+    <string name="indigo">INDIGO</string>
+    <string name="pink">PINK</string>
+    <string name="violet">VIOLET</string>
+
+    <string name="row1">Row one</string>
+    <string name="row2">Row two</string>
+    <string name="row3">Row three</string>
+    <string name="row4">Row four</string>
+</resources>

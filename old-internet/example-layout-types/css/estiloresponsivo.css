@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@author "Yasmin L";
+
+*{
+  margin: 0;
+  font-family: arial;
+}
+
+body{
+  background-color: #4169E1;
+}
+
+.geral{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.topo{
+  width: 100%;
+  height: 370px;
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.esquerdo, .direito{
+  width: 25%;
+  padding: 0.6%;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.centro{
+  width: 44%;
+  padding: 0.6%;
+  margin: 0 1.2%;
+  background-color: rgba(0, 0, 0, 0.2);
+  float: left;
+}
+/*44+0.6+0.6+1.2+1.2=47.6%
+52.4+47.6= 100%*/
+.imagemcentro img{
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  border-radius: 30px;
+}
+
+p{
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 10pt;
+}
+
+h1{
+  text-align: center;
+  padding: 15px;
+}
+
+/*Trabalhando com dispositivos - tablet horizontal*/
+@media screen and (max-width: 900px) {
+  .geral{
+    width: 100%;
+  }
+  .esquerdo, .centro{
+    padding: 0.6%;
+    margin: 0 1.2%;
+    float: left;
+    width: 46.4%;
+  }
+
+  .direito{
+    clear: both;
+    float: none;
+    width: 98.8%;
+    padding: 0.6%;
+    margin-top: 10px;
+  }
+}
+
+/*trabalhando com dispositivo tablett retrato*/
+@media screen and (max-width: 600px) {
+  .geral{
+    width: 100%;
+  }
+  .esquerdo, .centro, .direito{
+    width: 98.4%;
+    float: none;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0.8%;
+  }
+}
+
+/*trabalhando com dispositivo celular*/
+@media screen and (max-width: 480px) {
+  .geral{
+    width: 100%;
+  }
+  .topo{
+    height: 160px;
+  }
+  .esquerdo, .centro{
+    width: 98.4%;
+    float: none;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0.8%;
+  }
+  .direito{
+    display: none;
+  }
+}

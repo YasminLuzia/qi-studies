@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Scanlan\'s Magnificent Song App</string>
+    
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    
+    <string name="forgot_password">Forgot my password</string>
+
+    <string name="remember_me">Remember me</string>
+
+    <string name="register">Register</string>
+    <string name="sign_in">Sign in</string>
+
+    <string name="artist_credits">Art by Kit Buss</string>
+</resources>

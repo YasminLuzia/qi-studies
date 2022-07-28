@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExInterShape</string>
+    
+    <string name="magic_falchions">They got magic and flair, They got falchions and cunning</string>
+    <string name="monster_incoming">They dont see over there, Theres a monster incoming</string>
+    <string name="inspiration">Inspiration is waiting, Rise up, Dont think twice</string>
+    <string name="your_fate">Put your fate in your hands, Take the chance</string>
+    <string name="roll">Roll the dice!</string>
+</resources>

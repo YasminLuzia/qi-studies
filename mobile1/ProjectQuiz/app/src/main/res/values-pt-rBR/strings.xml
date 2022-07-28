@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz dos deuses gregos</string>
+    <string name="icon_description">Icone de um pilar grego meio destruido</string>
+    <string name="welcome_text">Bem-vindo ao quiz dos deuses gregos!</string>
+    <string name="button_start">Começar</string>
+    <string name="button_select_answer">Selecionar</string>
+    <string name="button_next">Próximo</string>
+    <string name="correct">Correto!</string>
+    <string name="incorrect">Errou!</string>
+    <string name="final_score">Resultado final:</string>
+    <string name="button_play_again">Jogar novamente</string>
+
+    <string name="question_1">Quantos filhos Cronos teve?</string>
+    <string name="question_1_option_1">5 Filhos</string>
+    <string name="question_1_option_2">8 Filhos</string>
+    <string name="question_1_option_3">6 Filhos</string>
+    <string name="question_1_option_4">9 Filhos</string>
+
+    <string name="question_2">Quais são os deuses conhecidos como Os Três Grandes?</string>
+    <string name="question_2_option_1">Hades, Hefesto, Ares</string>
+    <string name="question_2_option_2">Poseidon, Zeus, Hefesto</string>
+    <string name="question_2_option_3">Zeus, Hades, Ares</string>
+    <string name="question_2_option_4">Zeus, Poseidon, Hades</string>
+
+    <string name="question_3">De qual parte do corpo de Zeus nasceu Atena?</string>
+    <string name="question_3_option_1">Coração</string>
+    <string name="question_3_option_2">Costas</string>
+    <string name="question_3_option_3">Cérebro</string>
+    <string name="question_3_option_4">Olhos</string>
+
+    <string name="question_4">Qual o domínio de Hécate?</string>
+    <string name="question_4_option_1">Magia</string>
+    <string name="question_4_option_2">Lua</string>
+    <string name="question_4_option_3">Escuridão</string>
+    <string name="question_4_option_4">Conhecimento</string>
+
+    <string name="question_5">Quem é a mãe de Hefesto?</string>
+    <string name="question_5_option_1">Atena</string>
+    <string name="question_5_option_2">Hera</string>
+    <string name="question_5_option_3">Afrodite</string>
+    <string name="question_5_option_4">Hécate</string>
+
+    <string name="question_6">Que deus(a) amaldiçoou Medusa?</string>
+    <string name="question_6_option_1">Atena</string>
+    <string name="question_6_option_2">Ares</string>
+    <string name="question_6_option_3">Afrodite</string>
+    <string name="question_6_option_4">Poseidon</string>
+
+    <string name="question_7">Quem é a rainha do Olimpo?</string>
+    <!-- Same options as question 5 answer 3-->
+
+    <string name="question_8">Quem é o irmão de Hefesto?</string>
+    <string name="question_8_option_1">Zeus</string>
+    <string name="question_8_option_2">Dioniso</string>
+    <string name="question_8_option_3">Poseidon</string>
+    <string name="question_8_option_4">Ares</string>
+
+    <string name="question_9">Quais são as deusas virgens?</string>
+    <string name="question_9_option_1">Atena, Ártemis, Héstia</string>
+    <string name="question_9_option_2">Hera, Ártemis, Hécate</string>
+    <string name="question_9_option_3">Afrodite, Atena, Hera</string>
+    <string name="question_9_option_4">Zeus</string>
+
+    <string name="question_10">Quantos deuses viviam no Olimpo?</string>
+    <string name="question_10_option_1">14</string>
+    <string name="question_10_option_2">11</string>
+    <string name="question_10_option_3">12</string>
+    <string name="question_10_option_4">13</string>
+</resources>

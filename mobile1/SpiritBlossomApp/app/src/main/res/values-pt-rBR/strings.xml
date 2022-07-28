@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spirit Blossom App</string>
+
+    <!-- Main Screen !-->
+    <string name="introduction">Ah, recruta! Você nos encontrou aqui também…
+        \nEu sou a Riven, caso você não se lembre.
+        \nEnfim, alguns de nós, do mundo espiritual, queriamos compartilhar com mais pessoas nossos propósitos ou interesses, então pedimos para criarem um aplicativo.
+        \nEspero que goste.</string>
+    <string name="introduction_yasuo">Esta é a apresentação gravada pelo Yasuo. Ele é bom.</string>
+    <string name="page_yasuo">Apresentação do Yasuo</string>
+    <string name="introduction_love_meter">O que é isso?! Quem fez essa coisa idiota?!</string>
+    <string name="page_love_meter">Calculadora do amor</string>
+    <string name="hey">EI</string>
+    <string name="phrase_riven_button">N-Não me toca, idiota.</string>
+    <string name="neutral_button_oops">Opa</string>
+
+    <!-- Yasuo Screen !-->
+    <string name="music_yasuo">Dança por Yasuo</string>
+    <string name="credits">Todos créditos da fan art são de @aeriiyu</string>
+    <string name="stop_toast">Você não pode parar algo que não está tocando.</string>
+
+    <!-- Love Meter Screen !-->
+    <string name="love_meter_your_name">Seu nome</string>
+    <string name="love_meter_champion_name">Nome do campeão</string>
+    <string name="button_love_meter">Calcular</string>
+    <string name="you_and">Você e </string>
+    <string name="match"> combinam </string>
+    <string name="how_unfortunate">Que peninha.</string>
+    <string name="kinda_good">Isso… É um bom sinal, eu acredito?</string>
+    <string name="lucky">Oh olha só! Você tem sorte, de fato.</string>
+    <string name="invalid_names">Meu bem, você precisa preencher os nomes para que eu possa te dar um resultado, sim?</string>
+
+</resources>

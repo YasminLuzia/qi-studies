@@ -1,0 +1,8 @@
+@charset "UTF-8";
+body{
+  background-color: silver;
+}
+p{
+  text-align: justify;
+  text-indent: 25px;
+}

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+@author "Yasmin L";
+
+*{
+  margin: 0;
+  font-family: arial;
+}
+
+body{
+  background-color: #4169E1;
+}
+
+.geral{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.topo{
+  width: 900px;
+  height: 250px;
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.esquerdo, .direito{
+  width: 230px;
+  padding: 5px;
+  float: left;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.centro{
+  width: 390px;
+  padding: 5px;
+  margin: 0 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  float: left;
+}
+.imagemcentro img{
+  width: 390px;
+  border-radius: 30px;
+}
+
+p{
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 10pt;
+}
+
+h1{
+  text-align: center;
+  padding: 15px;
+}

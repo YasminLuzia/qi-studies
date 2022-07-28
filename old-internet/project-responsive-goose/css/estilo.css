@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@author "Yasmin L";
+
+*{
+  font-family: arial;
+  color: #fff;
+}
+body{
+  background-color: #3E6AD5;
+}
+
+.geral{
+  width: 90%;
+  margin: 0 5% auto;
+}
+
+.imagemnavegador{
+  width:100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: #3E6AD5;
+}
+
+.imagemnav{
+  width: 30%;
+  padding-left: 10%;
+  float: left;
+  height: 80px;
+  line-height: 80px;
+}
+
+.imagemnav img{
+  height: 80px;
+}
+
+.menu{
+    width:100%;
+  	height:80px;
+  	margin:0;
+  	padding:0;
+    float: right;
+}
+
+.topo{
+  width: 100%;
+  text-align: center;
+  height: 500px;
+}
+
+.topo img{
+  height: 100%;
+}
+
+.caixagrande{
+  border: 2px solid rgba(48, 84, 171, 0.5);
+  display: inline-block;
+  background-color: rgba(48, 84, 171, 0.5);
+}
+
+.caixapequena{
+  width: 21%;
+  text-align: justify;
+  float: left;
+  padding: 2%;
+}
+
+h2{
+  text-align: center;
+}
+
+.imagemcaixa{
+  width: 100%;
+  margin: 0;
+}
+
+.imagemcaixa img{
+  width: 100%;
+}
+
+ul{
+  padding: 0 18px;
+}
+
+.rodape{
+  text-align: right;
+}
+
+.menu{
+  background-color: #3E6AD5;
+  width: auto;
+}
+
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  line-height: 1;
+}
+.menu ul li{
+  text-align: center;
+  display: inline-block;
+}
+.menu ul li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 25px;
+  text-decoration: uppercase;
+}
+.menu ul li a:hover{
+  color: white;
+  background-color: rgba(250, 250, 250, 0.2);
+}
+
+
+
+@media screen and (max-width: 960px) {
+  .geral{
+    width: 90%;
+    margin: 0 5% auto;
+  }
+  .topo{
+    width: 100%;
+    height: 500px;
+  }
+  .topo img{
+    height: 450px;
+    width: 100%;
+  }
+  .caixapequena{
+    width: 46%;
+    text-align: justify;
+    float: left;
+    height: 450px;
+    padding: 2%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .geral{
+    width: 90%;
+    margin: 0 5% auto;
+  }
+  .topo{
+    width: 100%;
+    height: 350px;
+  }
+  .topo img{
+    height: 300px;
+    width: 100%;
+  }
+
+  .caixapequena{
+    width: 96%;
+    text-align: justify;
+    float: left;
+    height: 450px;
+    padding: 2%;
+  }
+
+  .imagemnavegador{
+    width:100%;
+    height: 200px;
+    line-height: 60px;
+    background-color: #3E6AD5;
+  }
+
+  .imagemnav{
+    width: 10%;
+    float: left;
+    height: 90px;
+    line-height: 90px;
+    padding: 0;
+  }
+
+  .imagemnav img{
+    height: 90px;
+  }
+
+  .menu{
+      width:70%;
+    	margin:0;
+    	padding:0;
+      text-align: right;
+  }
+
+  .menu ul li{
+    text-align: right;
+    display: block;
+  }
+}
